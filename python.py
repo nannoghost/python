@@ -283,3 +283,58 @@
 
 # x += y
 # print(x)
+
+# # ----------------------------
+# # ----------------------------
+# # --- Comparison Operators ---
+# # ----------------------------
+# # [ == ] Equal
+# # [ != ] Not Equal
+# # [ > ] Greater Than
+# # [ < ] Less Than
+# # [ >= ] Greater Than Or Equal
+# # [ <= ] Less Than Or Equal
+# # ----------------------------
+
+# ############################################################
+
+# # ----------------
+# # -- User Input --
+# # ----------------
+
+# # What\'s Your => "\" To Skip ("'").
+# fName = input('What\'s Your First Name?')
+# mName = input('What\'s Your Middle Name?')
+# lName = input('What\'s Your Last Name?')
+
+# # ".strip" To Ignore Space Between Texts.
+# # ".capitalize" To Make The First Letter Capital.
+# # ".1s" To Make Only The First Letter Is Printed.
+
+# fName = fName.strip().capitalize()
+# mName = mName.strip().capitalize()
+# lName = lName.strip().capitalize()
+
+# print(f"Hello {fName} {mName:.1s} {lName} Good To See You.")
+
+# ############################################################
+
+# # ---------------------------
+# # -- Practical Slice Email --
+# # ---------------------------
+
+# thename = input("What's Your Name ?").strip().capitalize()
+# theemail = input("What's Your Email ?").strip()
+
+# # [:theemail.index("@")] => To Start From 0 To End
+
+# theusername = theemail[:theemail.index("@")].strip()
+
+# # theemail.index("@") + 1 : => To Start After "@" To End
+
+# thewebsite = theemail[theemail.index("@") + 1 :].strip()
+
+# print(f"Hello {thename}, Your Email Is {theemail} \nYour Username Is {theusername}, And Your Website Is {thewebsite}")
+
+# ############################################################
+
