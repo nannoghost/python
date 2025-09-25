@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is our Book Store">
+    <title>Book Store</title>
+</head>
+
+<body>
+    <h1>Book Store</h1>
+    <p>This Is My <b>Book Store</b>, Welcome</p>
+    <p>We Have A Big Store</p>
+    <h2>Chapter Title Inside Book</h2>
+    <h3>Store Title Inside Chapter</h3>
+    <hr>
+    <p>Discount <del>$100</del> $80</p>
+    <hr>
+    <!-- For Links -->
+    <p><a href="https://google.com/" target="_blank" title="Go To Google">Google</a></p>
+    <p><a href="mailto:af25102002@gmail.com" target="_blank" title="Contact Me">Contact Me</a></p>
+    <!-- For Images Or Other things -->
+    <img src="index2_files/kali-ascii.png" alt="Image Not Found">
+    <hr>
+    <!-- ul => Unorderd List
+                     ol => Ordered List
+                     li => List Item
+                -->
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+            JS
+            <ul>
+                <li>Angular</li>
+                <li>Reactjs</li>
+                <li>Vuejs</li>
+            </ul>
+        </li>
+    </ol>
+    <!-- ol => Ordered List
+                     li => List Item
+                     reversed => Reverse The Ordering
+                     start => Start From Position
+                     type => Type Of Ordering 
+    -->
+    <ol>
+        <li>Name</li>
+        <li>Address</li>
+        <li>ID</li>
+    </ol>
+    <!-- dl => Description List
+                     dt => Term
+                     dd => Description Term
+                 -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Language Of The Web</dd>
+        <dd>The First Language</dd>
+        <dt>CSS</dt>
+        <dd>Language Of The Visuals</dd>
+    </dl>
+    <!-- thead
+                     tbody
+                     tfoot
+                     colspan="" => Merging Cells
+                     caption => Table Title
+                     th => Table Header Cell
+                     tr => Table Row
+                     td => Table Data Cell
+                 -->
+    <hr>
+    <table>
+        <caption>Table Test</caption>
+        <tbody>
+            <tr>
+                <th>First</th>
+                <th>Last</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>Mohamed</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>Mohamed</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>Mohamed</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>150</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <!-- span => To Control Words -->
+    <!-- style => From CSS To Control Of Items -->
+    <p>Ahmed<span>Fawzy</span>Fouad</p>
+    <!-- br => To Create New Line For Text -->
+    <p>ahmed fawzy fouad <br>ebrahim aly</p>
+    <!-- hr => To Create Line -->
+    <hr>
+    <p>Test Paragraph</p>
+    <hr>
+    <!-- div => Just A Container Of Items -->
+    <div>
+        <h4>Book Store</h4>
+        <p>Book Title</p>
+        <p>Test Book</p>
+    </div>
+    <hr>
+    <header class="1">Header</header>
+    <hr>
+    <nav>Navigation</nav>
+    <hr>
+    <section>Content
+        <figure>
+            <img src="" alt="Image Not Found">
+            <figcaption>Caption Of <!-- To Add ! --> (!) The Image</figcaption>
+        </figure>
+    </section>
+    <hr>
+    <aside>
+        Sidebar
+    </aside>
+    <hr>
+    <footer class="1">Footer</footer>
+    <hr>
+    <audio controls="controls" autoplay="autoplay" loop="" muted="muted">
+        <source src="Real_English_Conversation__Advanced_English_Lesson(256k).mp3" type="audio/mpeg">
+        Your Browser Does Not Support Audio Tags.
+    </audio>
+    <video controls="controls" autoplay="autoplay" loop="" muted="muted">
+        <source src="bound_filme.mp4" type="video/mp4">
+        Your Browser Does Not Support Video Tag.
+    </video>
+    <!-- action => To Send The Entered Data -->
+    <!-- post => To Hide The Content From The Upper Bar -->
+    <form method="post" action="" target="_blank">
+        <div class="Input_Type:Username">
+            <label>Username</label>
+            <input type="text" required placeholder="Username" name="Username" autofocus>
+        </div>
+        <!-- br => Break Between The Lines -->
+        <br>
+        <div class="Input_Type:Password">
+            <label>Password</label>
+            <input type="Password" required placeholder="oiwh020g8@02h" name="Password" minlength="10" maxlength="50">
+        </div>
+        <br>
+        <div class="Input_Type:Email">
+            <label>Email</label>
+            <input type="email" required placeholder="exampil@.com" name="Mail">
+        </div>
+        <hr>
+        <br>
+        <div class="Radio">
+            <div>
+                <input id="win" type="radio" name="os" value="Windows" checked />
+                <label for="win">Windows</label>
+            </div>
+            <div>
+                <input id="mac" type="radio" name="os" value="Mac" />
+                <label for="mac">Mac</label>
+            </div>
+            <div>
+                <input id="linux" type="radio" name="os" value="Linux" checked />
+                <label for="linux">Linux</label>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="Checkbox">
+            <div>
+                <input id="english" type="checkbox" name="Languages" value="English">
+                <label for="english">English</label>
+            </div>
+            <div>
+                <input id="arabic" type="checkbox" name="Languages" value="Arabic">
+                <label for="arabic">Arabic</label>
+            </div>
+        </div>
+        <br>
+        <hr />
+        <label for="book">Choose Book:</label>
+        <select name="book" id="book" required multiple>
+            <optgroup label="Group One">
+                <option value="1" selected>Book 1</option>
+                <option value="2">Book 2</option>
+                <option value="3">Book 3</option>
+                <option value="4">Book 4</option>
+            </optgroup>
+            <optgroup label="Group One">
+                <option value="5">Book 5</option>
+                <option value="6">Book 6</option>
+                <option value="7">Book 7</option>
+                <option value="8">Book 8</option>
+            </optgroup>
+        </select>
+        <br>
+        <hr />
+        <labe for="list1">list</labe>
+        <input list="test list" id="list1" name="list1">
+        <datalist id="test list">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+        </datalist>
+        <br>
+        <hr />
+        <input type="submit" value="Save">
+        <input type="reset" value="Reset">
+    </form>
+    <p>
+        <!-- bdi => To Format The Text Of Arabic And The Text Of The English -->
+        <bdi>هعصﻻهثرعهعهعصثبصىهعىهعؤص</bdi>wofeoihohwalhweoihfwoghwghlh owif932ucr09nqn2qc0t0nmcq0m0
+    </p>
+    <pre>
+        <p>
+            alwefowihofhwa
+            wofhwofhaw
+
+
+            owihfoaih     3oifho23ifhw
+        </p>
+    </pre>
+</body>
+
+</html>
