@@ -557,3 +557,194 @@
 
 # ############################################################
 
+# # ----------------------------
+# # -- Loop => While Training --
+# # ----------------------------
+# # While Condition_Is_true
+# # Code Will Run Until Condition Become false
+# # ----------------------------
+
+# myf = ["os", "ah", "ga", "al", "ra", "ta", "ma", "mo", "wa", "af"]
+
+# print(len(myf)) # List Length
+
+# a = 0
+
+# while a < len(myf) : # a < 10
+
+#     print(f"#{str(a + 1).zfill(2)} {myf[a]}")
+
+#     a += 1 # a = a + 1
+
+# else :
+#     print("All Friends Are Printed.")
+
+# print(myf[0])
+# print(myf[1])
+# print(myf[2])
+# print(myf[3])
+# print(myf[4])
+# print(myf[5])
+# print(myf[6])
+# print(myf[7])
+# print(myf[8])
+# print(myf[9])
+
+# ############################################################
+
+# # ----------------------------
+# # -- Loop => While Training --
+# # -- Simple Bookmark Manage --
+# # ----------------------------
+
+# # Empty List To Fill Later
+# myfavouritewebs = []
+
+# # Maximum Allowed Websites
+# maximum = 5
+
+# while maximum > 0 : 
+#     # Input The New Website
+#     web = input("Website Name Without https:// ")
+
+#     # Add The New Website To The List
+#     myfavouritewebs.append(f"https://{web.strip().lower()}")
+
+#     # Decrease One Number From Allowed Websites
+#     maximum -= 1
+
+#     # Print The Add Massage
+#     print(f"Website Added, {maximum} Places Left.")
+
+#     # Print The List
+#     print(myfavouritewebs)
+
+# else :
+#     print("Bookmark Is Full, You Can't Add More.")
+
+# # Check If List Is Not Emty
+# if len(myfavouritewebs) > 0 :
+#     # Sort The List
+#     myfavouritewebs.sort()
+
+#     index = 0
+
+#     print("Printing The List Of Websites In Your Bookmark")
+
+#     while index < len(myfavouritewebs)
+        
+#         print(myfavouritewebs[index])
+
+#         index += 1
+
+# ############################################################
+
+# # ----------------------------
+# # -- Loop => While Training --
+# # -- Simple Password Guess --
+# # ----------------------------
+
+# tries = 5
+
+# mainpassword = "ahmednanno2510"
+
+# inputpassword = input("Write Your Password: ").strip().lower()
+
+# while inputpassword != mainpassword : 
+   
+#     tries -= 1
+
+#     print(f"Wrong Password, { 'Last' if tries == 0 else tries } Chance Left")
+
+#     inputpassword = input("Write Your Password: ").strip().lower()
+#     if tries == 0 : 
+    
+#         print("All Tries Is Finished.")
+
+#         break
+
+#         print("Will Not Printing")
+
+# else :
+#     print("Correct Password.")
+
+# ############################################################
+
+# # -----------------
+# # -- Loop => For --
+# # -----------------
+# # For Item In Iterable_Object :
+# #   Do Something With Item
+# # -----------------------------
+# # Item Is A Vairable You Create And Call Whenever You Want
+# # Item Refer To The Current Position And Will Run And Visit All Items To The End
+# # Iterable_Object => Sequence [ list, tuples, set, dict, string of charcters, etc ...]
+# # ------------------------------------------------------------------------------------
+
+# mynumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# for number in mynumbers : 
+    
+    # print(number * 15)
+
+#     if number % 2 == 0 : # Even
+
+#         print(f"The Number {number} Is Even.")
+
+#     else : 
+        
+#         print(f"The Number {number} Is Odd.")
+
+# else : 
+#     print("The Loop Is Finished.")
+
+# myname = "Ahmed"
+
+# for letter in myname : 
+#     print(f" [ {letter.upper()} ] ")
+
+# ############################################################
+
+# # -----------------
+# # -- Loop => For --
+# # --  Trainings  --
+# # -----------------
+
+# # Range
+
+# myrange = range(1, 101)
+
+# for number in myrange : 
+   
+#     print(str(number).zfill(3))
+
+
+# # Dictionary
+
+# myskills = {
+#     "Html" : "90%",
+#     "Css" : "60%",
+#     "Php" : "80%",
+#     "Js" : "50%",
+#     "Python" : "100%",
+# }
+
+
+# # The Same One
+
+# print(myskills["Js"])
+# print(myskills.get("Python"))
+
+
+# for skill in myskills :
+   
+    # print(skill)
+
+
+    # # The Same One
+
+    # print(f"My Progress In Lang {skill} Is: {myskills.get(skill)}")
+    # print(f"My Progress In Lang {skill} Is: {myskills[skill]}")
+
+# ############################################################
+
