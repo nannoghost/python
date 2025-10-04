@@ -748,3 +748,196 @@
 
 # ############################################################
 
+# # -----------------
+# # -- Loop => For --
+# # -- Nested Loop --
+# # -----------------
+
+# peoples = {
+#     "Osama" : {
+#         "Html" : "70%",
+#         "Css" : "80%",
+#         "Js" : "60%",
+#     },
+#     "Ahmed" : {
+#         "Html" : "90%",
+#         "Css" : "40%",
+#         "Js" : "70%",
+#     },
+#     "Sayed" : {
+#         "Html" : "10%",
+#         "Css" : "20%",
+#         "Js" : "30%",
+#     },
+# }
+
+# for name in peoples : 
+#     print(f"Skills And Progress For {name} Is: ")
+
+#     for skill in peoples[name] : 
+#         print(f"{skill.upper()} => {peoples[name][skill]}")
+
+# ############################################################
+
+# # ---------------------------
+# # -- Break, Continue, Pass --
+# # ---------------------------
+
+# mynumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# # Continue
+
+# for number in mynumbers : 
+#     if number == 7 : 
+
+#         continue
+    
+#     print(number)
+
+# print("#" * 50)
+
+
+# # Break
+
+# for number in mynumbers : 
+    
+#     if number == 7 : 
+    
+#         break
+    
+#     print(number)
+
+
+# print("#" * 50)
+
+
+# # Pass
+
+# for number in mynumbers : 
+#     if number == 7 : 
+
+#         pass
+    
+#     print(number)
+
+
+# print("#" * 50)
+
+
+# ############################################################
+
+# # ------------------------------
+# # -- Advanced Dictionary Loop --
+# # ------------------------------
+
+# myskills = {
+#     "Html" : "80%",
+#     "Css" : "50%",
+#     "Js" : "60%",
+# }
+
+# for skill_key, skill_progress in myskills.items() : 
+#     print(f"{skill_key} => {skill_progress}")
+
+
+# print("#" * 50)
+
+
+# peoples = {
+#     "Osama" : {
+#         "Html" : "70%",
+#         "Css" : "80%",
+#         "Js" : "60%",
+#     },
+#     "Ahmed" : {
+#         "Html" : "90%",
+#         "Css" : "40%",
+#         "Js" : "70%",
+#     },
+#     "Sayed" : {
+#         "Html" : "10%",
+#         "Css" : "20%",
+#         "Js" : "30%",
+#     },
+# }
+
+# for name, lang in peoples.items() : 
+
+#     print(f"{name} Lang & Prog Is: ")
+    
+#     for lang2, progress in lang.items() :
+
+#         print(f"- {lang2} => {progress}")
+
+# ############################################################
+
+# # -------------------------
+# # -- Function And Return --
+# # -------------------------
+# # [1] A Function Is A Reusable Block Of Code A Task.
+# # [2] A Function Run When You Call It.
+# # [3] A Function Accept Element To Deal With Called [Parameters].
+# # [4] A Function Can Do The Task Without Returning Data.
+# # [5] A Function Can Return Data After Job Is Finished.
+# # [6] A Function Create To Prevent DRY.
+# # [7] A Function Accept Elements When You Call It Called [Arguments].
+# # [8] There's A Built-In Functions And User Defined Functions.
+# # [9] A Function Is For All Team And All Apps.
+# # -------------------------------------------------------------
+
+# def function_name() : 
+    
+#     print("Hello Python From Inside Function.")
+
+#     return "Hello Python From Inside Function."
+
+# function_name()
+
+
+# print("#" * 50)
+
+
+# # ---------------------------------------
+# # -- Function Parameters And Arguments --
+# # ---------------------------------------
+
+# # def                     => Function Keyword [Define]
+# # say_hello()             => Function Name
+# # name                    => Parameter
+# # print(f"Hello {name})   => Task
+# # say_hello("Ahmed")      => Ahmed Is The Argument
+
+# def say_hello(name) : 
+
+#     print(f"Hello {name}")
+
+# say_hello("Ahmed")
+
+
+# print("#" * 50)
+
+
+# def addition(n1, n2) :
+
+#     if type(n1) != int or type(n2) != int : 
+        
+#         print("Only Integers Allowed")
+
+#     else : 
+
+#         print(n1 + n2)
+
+# addition(100, 300)
+
+
+# print("#" * 50)
+
+
+# def full_name(f, m, l) :
+    
+#     print(f"Hello {f.strip().capitalize()} {m.upper():.1s} {l.capitalize()}")
+
+# full_name("Ahmed", "Fawzy", "Fouad")
+
+# ############################################################
+
